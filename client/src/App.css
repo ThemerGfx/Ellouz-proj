@@ -1,0 +1,36 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@font-face {
+  font-family: "sectra-fine";
+  src: url("./styles/fonts/GTSectraFineBook.ttf");
+}
+
+@font-face {
+  font-family: "circular";
+  src: url("./styles/fonts/CircularStdBlack.ttf");
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "sectra-fine", "circular";
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.38889;
+  color: #000;
+  text-align: left;
+  background-color: #000;
+}
+
+p {
+  font-family: "gt-sectra-fine";
+}

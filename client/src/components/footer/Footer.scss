@@ -1,0 +1,105 @@
+.footer {
+    font-size: 1.3em;
+
+    padding: 15px 15px;
+    background: #000;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-left: 0px;
+
+        li {
+            margin: 5px;
+        }
+
+    }
+
+    .extern-links {
+        .fab {
+            color: white;
+        }
+
+        margin: 20px;
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .link {
+        color: white;
+        z-index: 10;
+        text-decoration: none;
+        border-bottom: none;
+    }
+
+    .link:hover {
+        text-decoration: none;
+        color: gray;
+    }
+}
+
+.plan-site,
+.conditions-generale-vente,
+.politique-conf,
+.mentions-legales {
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 70vh;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 4.6em;
+    }
+
+    h3 {
+        font-size: 2.7em;
+    }
+
+    ol {
+        font-size: 1.7em;
+
+
+        li {
+            font-weight: bold;
+            margin: 10px 0px;
+
+        }
+    }
+
+    ul {
+        font-size: 0.9em;
+
+        li {
+            font-weight: normal;
+            margin: 15px 0px 10px 0px;
+        }
+    }
+
+    p {
+        font-size: 1.7em;
+        margin-bottom: 35px;
+
+    }
+
+    .description {
+        background-color: white;
+        padding: 5% 10%;
+    }
+}

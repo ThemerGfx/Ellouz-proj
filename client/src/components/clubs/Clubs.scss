@@ -1,0 +1,112 @@
+.clubs-page {
+    width: 100%;
+
+
+
+    .club,
+    .clubs {
+
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            position: absolute;
+            object-fit: cover;
+
+        }
+
+        h2 {
+            font-size: 5em;
+            margin-top: 27vh;
+            font-weight: bold;
+        }
+
+        h3 {
+            font-size: 3em;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        h5 {
+            font-size: 2.7em;
+        }
+
+        h2,
+        h3,
+        h5 {
+            z-index: 10;
+        }
+
+        .nav-button {
+            z-index: 10;
+
+        }
+
+        button {
+            z-index: 10;
+            margin: 25px;
+            border: none;
+            background-color: white;
+            /* width: 170px; */
+            font-size: 15px;
+            font-weight: bold;
+            min-width: 190px;
+            /* font-size: .75em; */
+            line-height: 50px;
+            width: 20%;
+        }
+
+        .description {
+            background-color: #76767bab;
+            z-index: 10;
+            width: 70%;
+            // height: 50%;
+            text-align: center;
+            color: white;
+            max-width: 700px;
+            min-width: 350px;
+            height: 45vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 5em;
+                margin: auto;
+            }
+
+            p {
+                font-size: 2em;
+            }
+        }
+
+        .direction {
+            position: relative;
+            width: 70px;
+            height: 60px;
+            margin: 35px auto;
+
+        }
+    }
+
+    .clubs {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .club {
+        color: white;
+        height: 70vh;
+    }
+}
